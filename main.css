@@ -65,7 +65,7 @@ body {
 
 .card.show {
     opacity: 1;
-    transform: translateY(-50px); /* Hiệu ứng nổi lên */
+    transform: translateY(-80px); /* Hiệu ứng nổi lên */
 }
 
 .card:before {
@@ -258,66 +258,5 @@ body {
     }
     50% {
         transform: scaleX(0.85);
-    }
-}
-
-
-/* Media Queries for Android */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .envelope {
-        width: 200px;
-    }
-
-    .card {
-        width: 180px;
-        height: 120px;
-        top: 0;
-        left: 10px;
-    }
-
-    .text {
-        font-size: 14px;
-    }
-
-    .hearts {
-        display: none; /* Ẩn trái tim bay nếu không cần thiết */
-    }
-
-    .shadow {
-        width: 200px;
-        height: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
-        padding: 5px;
-    }
-
-    .envelope {
-        width: 150px;
-    }
-
-    .card {
-        width: 140px;
-        height: 100px;
-    }
-
-    .text {
-        font-size: 12px;
-    }
-
-    .hearts {
-        display: none;
-    }
-
-    .shadow {
-        display: none;
     }
 }

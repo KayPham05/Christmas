@@ -11,7 +11,7 @@ document.getElementById('envelope').addEventListener('click', function() {
     // Xóa lớp 'show' sau khi transition kết thúc
     setTimeout(function() {
         card.classList.remove('show');
-    }, 2000); // Thời gian đợi 2 giây
+    },10000); // Thời gian đợi 2 giây
 });
 
 window.addEventListener("resize", () => {
