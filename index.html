@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mở lên đi</title>
+    <title>Mở Lên Đi</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="TieuDe"><h3>Ấn vào lá thư để xem nội dung!!</h></div>
     <div class="container">
         <div class="christmas">
             <div class="envelope" id="envelope">
                 <div class="front"></div>
                 <div class="card" id="card">
-                    <div class="text">Merry Christmas <br>Nguyễn Phan Ngoc Như<br>Cười thật nhiều ❤<br>Em nhé 🥰!</div><br>
+                    <div class="text" id="letterContent">Merry Christmas <br>Nguyễn Phan Ngoc Như<br>Cười thật nhiều ❤<br>Em nhé 🥰!</div>
                 </div>
             </div>
             <div class="hearts">
@@ -24,8 +25,15 @@
             </div>
         </div>
         <div class="shadow"></div>
-        <script src="style.js"></script> <!-- Chèn file JS đúng cách ở đây -->
+    </div>
+    <div class = "button-1">
+        <button id="changeContentButton">Xem xong rồi thì ấn vào đây</button>
     </div>
 
+    <div id="responseButtons" style="display: none; margin-top: 20px;">
+        <button id="yesButton">Vui quá chừng</button>
+        <button id="noButton">Buồn heo</button>
+    </div>
+    <script src="style.js"></script>
 </body>
 </html>

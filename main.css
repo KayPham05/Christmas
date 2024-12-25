@@ -65,7 +65,7 @@ body {
 
 .card.show {
     opacity: 1;
-    transform: translateY(-80px); /* Hiệu ứng nổi lên */
+    transform: translateY(-110px); /* Hiệu ứng nổi lên */
 }
 
 .card:before {
@@ -259,4 +259,58 @@ body {
     50% {
         transform: scaleX(0.85);
     }
+}
+
+.button-1 {
+    position:absolute;
+    bottom: 180px;
+}
+button {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #f8ad9d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    top: 0;
+}
+
+button:hover {
+    background-color: #f4978e;
+}
+
+/* Nút chung */
+#responseButtons {
+    position: fixed; /* Cố định ở một vị trí */
+    bottom: 100px; /* Cách mép dưới 20px */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translateX(-50%); /* Đưa nút về đúng tâm */
+    display: flex; /* Đặt các nút theo hàng ngang */
+    gap: 10px; /* Tạo khoảng cách giữa các nút */
+}
+#responseButtons button {
+    
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color:  #f8ad9d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hiệu ứng hover */
+#responseButtons button:hover {
+    background-color: #f4978e;
+}
+
+.TieuDe {
+    position: absolute;
+    top:200px;
 }
