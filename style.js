@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sự kiện nút "Có"
     yesButton.addEventListener('click', () => {
-        if (yesButton.textContent === "Vui quá chừng") {
+        if (yesButton.textContent === "Vui quá chừng🥳🤩") {
             letterContent.innerHTML = `
             Chia sẻ ngày vui<br> này với anh nữa<br> nhé! 😊
             `;
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Sự kiện nút "Không"
     noButton.addEventListener('click', () => {
-        if (noButton.textContent === "Buồn heo") {
+        if (noButton.textContent === "Buồn hiu☹️") {
             letterContent.innerHTML = `
             Vậy để anh đưa em<br> đi chơi giải sầu<br> nhé! 🥰
             `;
